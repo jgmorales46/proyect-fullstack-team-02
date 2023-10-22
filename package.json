@@ -2,10 +2,10 @@
   "name": "parcel-project-template",
   "version": "2.0.0",
   "description": "",
-  "homepage": "https://jgmorales46.github.io/https://github.com/proyect-fullstack-team-02",
+  "homepage": "https://DDGOMEZ10.github.io/Project-Fru1tSt0r3",
   "scripts": {
     "start": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /proyect-fullstack-team-02/"
+    "build": "parcel build src/*.html --public-url /Project-Fru1tSt0r3/"
   },
   "repository": {
     "type": "git",

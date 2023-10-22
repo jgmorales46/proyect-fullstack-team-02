@@ -104,7 +104,7 @@
         /* 116.667% */
         letter-spacing: -0.48px;
         text-transform: uppercase;
-        flex-basis: calc((100% - 20px) / 2);
+        
     }
 
     &__container-first {
@@ -185,6 +185,7 @@
         position: absolute;
         top: 14%;
         left: -1%;
+        
     }
 
     &__text__left {
@@ -380,8 +381,12 @@
             letter-spacing: -2px;
             text-transform: uppercase;
             padding: 20px;
+            margin-top: 48px;
         }
 
+        &__watermelon {
+            margin-left: 62px;
+        }
         &__container-first {
             position: relative;
             padding-top: 108px;
@@ -389,33 +394,36 @@
         }
 
         &__orange {
-            margin: 0px 215px;
+            margin-left: 158px;
+            margin-top: 38px;
+            
 
         }
 
         &__orange__shop {
-
-            left: 44%;
+            width: 114px;
+            height: 114px;
+            flex-shrink: 0;
+            left: 43%;
         }
 
         &__orange__text {
-
-            position: absolute;
-            top: 28%;
-            left: 18%;
-            z-index: 1;
+            width: 84px;
+           
             color: #AE1332;
+
             text-align: center;
             text-shadow: 0px 4px 70px rgba(0, 0, 0, 0.10);
             font-family: DM Sans;
-            font-size: 20px;
+            font-size: 28px;
             font-style: normal;
-            font-weight: 700;
-            line-height: 20px;
-            /* 100% */
-            letter-spacing: -0.8px;
+            font-weight: 500;
+            line-height: 28px; /* 100% */
+            letter-spacing: -1.12px;
             text-transform: uppercase;
-            width: 55px;
+            letter-spacing: -0.8px;
+            left: 16px;
+          
             transform: rotate(-14deg);
 
             &:hover,
@@ -433,7 +441,9 @@
             top: 5%;
             left: 80%;
             z-index: 1;
-
+            width: 108px;
+            height: 108px;
+            flex-shrink: 0;
 
         }
 
@@ -442,13 +452,28 @@
             top: 18%;
             left: 4%;
             z-index: 1;
+            width: 132px;
+            height: 90px;
+            transform: rotate(20deg);
+            flex-shrink: 0;
         }
 
+&__orange__img {
+    width: 446px;
+    height: 702px;
+flex-shrink: 0;
+}
+
         &__icono {
-            left: 25%;
+            left: 18%;
+            width: 486px;
+height: 742px;
+flex-shrink: 0;
+            
         }
 
         &__text__left {
+            margin-left: 32px;
             text-align: start;
             color: #FFF;
             text-shadow: 0px 4px 70px rgba(0, 0, 0, 0.10);
@@ -486,13 +511,15 @@
             padding: 10px 20px;
 
         }
+        .main__orange__shop-now {
+            width: 114px;
+height: 114px;
+flex-shrink: 0;
+        }
+       
 
     }
 }
-
-
-
-
 
 
 
@@ -511,7 +538,7 @@
     .boton_1 {
 
         top: -17em;
-        left: 10%;
+        left: 148px;
 
     }
 
@@ -524,7 +551,7 @@
 
     .boton_4 {
         top: -12em;
-        left: 23%;
+        left: 286px;
 
     }
 
@@ -559,10 +586,11 @@
 
         &__banana {
 
-
+            width: 183.21px;
+            height: 124.613px;
+            transform: rotate(20deg);
+            flex-shrink: 0;
             z-index: 1;
-            width: 150px;
-            height: 140px;
             top: 25%;
             left: 15%;
         }
@@ -576,24 +604,25 @@
         }
 
         &__icono {
-            left: 37%;
+            left: 31%;
             top: 8em;
         }
 
         &__orange {
-            margin: 33px 495px;
+            margin-left: 417px;
+            margin-top: 39px;
 
         }
 
         &__orange__shop {
 
-            top: 84%;
-            left: 48%;
+            left: 45%;
+            
             z-index: 1;
         }
 
         &__text__left {
-
+            margin-left: 62px;
             width: 222px;
             color: #FFF;
             text-shadow: 0px 4px 70px rgba(0, 0, 0, 0.10);
@@ -615,7 +644,8 @@
             flex-shrink: 0;
             border-radius: 500px;
             background: #F5CE13;
-            margin-left: 939px;
+            margin-right: 0px;
+            margin-left: 970px;
             margin-top: -645px;
         }
 
@@ -624,14 +654,15 @@
 
             margin-bottom: 446px;
         }
-
+        .main__buttons {
+            left: 63%;
         &__buttons_li {
 
             position: absolute;
             padding: 10px 20px;
 
         }
-
+    }
 
     }
 

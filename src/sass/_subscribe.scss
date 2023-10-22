@@ -12,10 +12,9 @@
 
 .subscribe {
     background-color: #AE1332;
-
     &__blocks {
         width: 100%;
-        height: 100%;
+        height: 100%; 
         position: relative;
         display: flex;
         justify-content: center;
@@ -23,18 +22,17 @@
 
     &__images {
         top: 89px;
-        position: relative;
-        max-width: 335px;
-        left: 20px;
-        height: auto;
-        justify-content: center;
-        align-items: center;
-        gap: 24px;
+        position: relative;   
+        max-width: 335px; 
+        height: auto; 
+        justify-content: center; 
+        align-items: center; 
+        gap: 24px; 
         display: flex;
         overflow: hidden;
     }
 
-    &__image1 {
+    &__image1{
         width: 344px;
         height: 480px;
         padding: 0;
@@ -43,7 +41,7 @@
         background-image: url("../images/fruit.jpg");
         background-repeat: no-repeat;
         background-size: cover;
-        background-position: center;
+        background-position: center; 
     }
 
     &__image2 {
@@ -56,7 +54,7 @@
         background-image: url("../images/blueberry.jpg");
         background-repeat: no-repeat;
         background-size: cover;
-        background-position: center;
+        background-position: center; 
     }
 
     &__title {
@@ -65,55 +63,55 @@
         left: 12%;
         text-align: center;
         width: 300px;
-        color: white;
+        color: white; 
         text-shadow: 0px 4px 70px rgba(0, 0, 0, 0.10);
-        font-weight: 500;
-        font-size: 32px;
-        letter-spacing: -0.04em;
-        text-transform: uppercase;
+        font-weight: 500; 
+        font-size: 32px; 
+        letter-spacing: -0.04em; 
+        text-transform: uppercase; 
         line-height: 1;
         word-wrap: break-word;
     }
 
-    &__block {
-        position: relative;
-        flex-direction: column;
-        justify-content: flex-start;
-        align-items: center;
-        gap: 80px;
-        display: inline-flex;
-        text-align: initial;
+    &__block{
+        position: relative; 
+        flex-direction: column; 
+        justify-content: flex-start; 
+        align-items: center; 
+        gap: 80px; 
+        display: inline-flex; 
+        text-align: initial; 
         display: flex;
         padding-top: 15px;
         height: 400px;
-    }
+        }
 
 
-    &__text {
-        flex-direction: column;
-        justify-content: flex-start;
-        align-items: center;
-        gap: 14px;
+    &__text{
+        flex-direction: column; 
+        justify-content: flex-start; 
+        align-items: center; 
+        gap: 14px; 
         display: flex;
     }
 
 
-    &__textOur {
+    &__textOur{
         display: none;
 
     }
 
-    &__input {
-        width: 300px;
-        height: 48px;
+    &__input{
+        width: 300px; 
+        height: 48px; 
         position: relative;
         border-radius: 100px;
         border: 1px solid #FFF;
     }
 
-    &__rectangle-email {
+    &__rectangle-email{
         display: none;
-
+        
 
     }
 
@@ -133,15 +131,15 @@
     }
 
 
-    &__enter-email {
+    &__enter-email{
         left: 24px;
         position: relative;
         opacity: 0.80;
         color: white;
         font-size: 14px;
         font-family: DM Sans;
-        font-weight: 400;
-        line-height: 18px;
+        font-weight: 400; 
+        line-height: 18px; 
         word-wrap: break-word;
         transform: translateY(-50%);
         top: 50%;
@@ -158,90 +156,79 @@
         background-color: #ae1332;
         margin: auto;
         padding: 0%;
-        width: 100%;
-        /* Ancho al 100% para adaptarse al ancho de la pantalla */
-        padding-top: 2486px;
+        width: 100%; /* Ancho al 100% para adaptarse al ancho de la pantalla */
     }
-
     .container--input {
         height: 278px;
         width: 100%;
     }
-
     .subscribe {
         background-color: #AE1332;
-
         &__blocks {
             height: 550px;
         }
-
-        &__block {
-            position: relative;
-            flex-direction: column;
-            justify-content: flex-start;
-            align-items: center;
-            gap: 80px;
-            display: inline-flex;
-            text-align: initial;
+        &__block{
+            position: relative; 
+            flex-direction: column; 
+            justify-content: flex-start; 
+            align-items: center; 
+            gap: 80px; 
+            display: inline-flex; 
+            text-align: initial; 
             display: flex;
             padding-top: 15px;
             padding-bottom: 80px;
             height: auto;
-        }
-
-        &__input {
+            }
+        &__input{
             left: 10%;
             transform: translateX(50%);
             display: flex;
             align-items: center;
             justify-content: center;
         }
-
         &__title {
-            top: 0;
-            font-size: 54px;
-            font-weight: 500;
-            line-height: 1;
+        font-size: 54px;
+        font-weight: 500;
+        line-height: 1;
+        left: 4%;
+        width: 90%;
+        letter-spacing: -0.04em;
         }
-
-        &__images {
-            max-width: 768px;
-        }
-
-        &__image1 {
-            max-width: 344px;
+        &__images{
+            max-width: 768px; 
+            }
+            
+        &__image1{
+            width: 344px;
             height: 480px;
         }
-
         &__image2 {
             display: initial;
             max-width: 344px;
             height: 480px;
         }
-
         &__textOur {
             display: initial;
             position: relative;
             padding-top: 80px;
-            width: 492px;
-            text-align: center;
-            color: white;
-            font-size: 14px;
-            font-weight: 400;
-            line-height: 18px;
+            width: 492px; 
+            text-align: center; 
+            color: white; 
+            font-size: 14px; 
+            font-weight: 400; 
+            line-height: 18px; 
             word-wrap: break-word;
         }
-
         &__rectangle-email {
             display: initial;
-            width: 292px;
-            height: 480px;
-            left: 0px;
-            top: 0px;
-            position: relative;
+            width: 292px; 
+            height: 480px; 
+            left: 0px; 
+            top: 0px; 
+            position: relative; 
             padding-bottom: 10px
         }
-
         &__button_send {
             display: initial;
             width: 110px;
@@ -259,16 +246,7 @@
             align-items: center;
             gap: 15px;
         }
-
-        &__title {
-            top: 1%;
-            left: 4%;
-            width: 90%;
-            font-size: 54px;
-            letter-spacing: -0.04em;
-        }
-
-        /* Agregar otros ajustes de estilo para pantallas pequeñas aquí */
+    /* Agregar otros ajustes de estilo para pantallas pequeñas aquí */
     }
 }
 
@@ -280,33 +258,27 @@
         max-height: 1003px;
         margin: auto;
         padding: 0%;
-        padding-top: 2600px;
     }
 
-    .subscribe {
-        &__title {
-            font-size: 64px;
+.subscribe {
+    &__title {
+        font-size: 64px; 
+    }
+    &__input{
+        left: 25%;
+        transform: translateX(50%);
+    }
+    &__images{
+        max-width: 1280px;
+        padding-bottom: 150px;
         }
+    &__image1{
+        width: 792px;
+        height: 502px;
+    }
+    &__image2{
 
-        &__input {
-            left: 25%;
-            transform: translateX(50%);
-        }
-
-        &__images {
-            max-width: 1280px;
-            padding-bottom: 150px;
-        }
-
-        &__image1 {
-            background-image: url("../images/fruit1280.jpg");
-            width: 792px;
-            height: 502px;
-        }
-
-        &__image2 {
-            max-width: 792px;
-            height: 502px;
-        }
+        height: 502px;
+    }
     }
 }
